@@ -2896,9 +2896,11 @@ const tech = {
             requires: "",
             effect() {
                 tech.isOverHeal = true;
+		tech.giveTech("unified field theory")
             },
             remove() {
                 tech.isOverHeal = false;
+		tech.giveTech("negative entropy")
             }
         },
         {
